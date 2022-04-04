@@ -1,0 +1,50 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    max-width: 100% !important;
+    display: flex;
+    align-items: flex-end;
+    background-color: aqua;
+}
+#meio-pagina{
+    background-color: bisque;
+    height: auto;
+    ;
+border: burlywood 2px solid;
+}
+#rodape{
+    background-color: black;
+    height: 135px;
+    width: 100vw;
+    margin-left: -4px;
+}
+#seletor{
+    display: flex;
+    justify-content: space-around;
+}
+#redes, #imagem-van{
+    
+    color: white;
+    width: 110px;
+}
+#redes{
+    position: relative;
+    left: 200px;
+    margin-top: 10px;
+    width: 120px;
+
+}
+#redes h3{
+    margin-left: -10px;
+}
+
+.icones{
+    margin: 5px;
+    width: 35px;
+    
+}
